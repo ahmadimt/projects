@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.imti.techolution.util;
+package com.imti.util;
 
 /**
  * @author imteyaz

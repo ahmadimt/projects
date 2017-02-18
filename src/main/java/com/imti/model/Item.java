@@ -1,4 +1,4 @@
-package com.imti.techolution.model;
+package com.imti.model;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.imti.techolution;
+package com.imti;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,10 +11,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TecholutionApplication {
+public class Application {
 
 	public static void main(String[] args) throws IOException {
-		SpringApplication.run(TecholutionApplication.class, args);
+		SpringApplication.run(Application.class, args);
 		List<String> lines = new ArrayList<>();
 		if (args.length == 1) {
 			lines = Files.lines(Paths.get(args[0])).collect(Collectors.toList());

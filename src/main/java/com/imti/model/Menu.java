@@ -1,4 +1,4 @@
-package com.imti.techolution.model;
+package com.imti.model;
 
 import java.util.ArrayList;
 import java.util.List;
