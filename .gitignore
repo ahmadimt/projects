@@ -12,3 +12,20 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+*.class
+**/target
+**/.classpath
+**/.project
+**/.settings
+**/.springBeans
+**/bin
+**/build
+.DS_Store
+.gradle
+/build/
+/bin/
+.gradle/**
+*.md
+.idea/**
+
